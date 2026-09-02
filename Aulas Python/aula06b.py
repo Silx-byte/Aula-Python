@@ -1,0 +1,2 @@
+n = input('digite algo')
+#print (m.is) mostra varios tipos de formatacoes para identificar o que o codigo representa, como por exemplo: Se ele e alpha numerico, se ele e alfabetico, se ele so tem letras maiusculas e afins
