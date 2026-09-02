@@ -2,6 +2,7 @@ from datetime import date
 ano = date.today().year
 nascimento = int(input('Em que ano voce nasceu ? '))
 idade = ano - nascimento
+print('Voce tem {} de idade!'.format(idade))
 if idade <=9:
     print('Voce esta classificado como MIRIM! Parabens')
 elif idade <=14 and idade >9:
