@@ -18,7 +18,7 @@ nasc = int(input('Em que ano voce nasceu ? '))
 sex = input('Sexo ? [M] ou [F]').strip().capitalize()
 idade = atual - nasc
 if sex == 'F':
-    print('Voce nao precisa se alistar') end=""
+    print('Voce nao precisa se alistar')
 print('Quem nasceu em {} tem {} anos em {}.'.format(nasc, idade, atual))
 if idade == 18:
     print('Voce TEM que se alistar IMEDIATAMANTE!')

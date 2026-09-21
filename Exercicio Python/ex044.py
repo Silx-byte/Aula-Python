@@ -30,11 +30,17 @@ elif opcao == 2:
 elif opcao == 3:
     total = preço
     parcela = preço / 2
-    print('Ficará no valor de R${} e o valor da parcela ficara em 2x de {:.2f}. '.format(preço, parcela))
+    print('Ficará no valor de R${} e o valor da parcela ficara em 2x de {:.2f} SEM JUROS! '.format(preço, parcela))
 elif opcao == 4:
     total = preço + (preço * 20 / 100)
     totalparcela = int(input('Quantas parcelas voce gostaria ? '))
     parcela = total / totalparcela
     print('A sua compra será parcelada em {}x de {:.2f} COM JUROS!'.format(totalparcela, parcela))
+else:
+    total = preço
+    print('Opção de pagamento é invalida! Tente novamente.')
 # Podemos criar variaveis dentro dos ELIFS para organizar e realizar atividades que só acontecerao quando o codigo precisar passar por esses elifs.
 print('O valor da compra que seria {} vai terminar no valor de {}!'.format(preço, total))
+
+# EXERCICIO IMPORTANTE POIS MOSTRA COMO LIDAR COM VARIAVEIS DENTRO DOS NINHOS, DENTRO DOS IFS.
+

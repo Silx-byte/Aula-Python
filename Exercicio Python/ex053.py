@@ -4,6 +4,7 @@ junto = ''.join(palavras) # Aqui a gente junta tudo formando 1 só string
 inverso = ''
 for letra in range(len(junto) -1, -1, -1): # E aqui forma a versão inversa dela mesma
     inverso += junto[letra]
+print('O inverso de {} é {}'.format(junto, inverso))
 if inverso == junto:
     print('Ele é um PALINDROMO')
 else:

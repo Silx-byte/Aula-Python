@@ -14,5 +14,5 @@ cont = 0
 for c in range(1, 501, 2):
     if c % 3 == 0:
         cont = cont + 1
-        soma = soma + c
+        soma = soma + c # Pode ser feito também - soma += c ( Que siginifica Soma recebe Soma mais C) isso vale pro CONT também
 print('A soma de todos {} valores solicitados resulta em {}'.format(cont, soma))

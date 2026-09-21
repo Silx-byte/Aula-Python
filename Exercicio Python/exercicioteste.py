@@ -20,7 +20,7 @@ if pagamento == 1:
     print('Voce terá 5% de desconto, então a sua compra sairá no valor de {}'.format(valor - (valor *0.05)))
 elif pagamento == 2:
     print('A sua compra saira no valor de {} parcelado em duas vezes de {}'.format(valor, valor / 2))
-if pagamento >= 3:
+elif pagamento >= 3:
     parcela = int(input('Quantas parcelas ? '))
     print('A sua compra saira no valor de {} com juros de 20%, cada parcela sairá no valor de {:.2f}'.format(valor + (valor * 0.2), valor + (valor * 20) / parcela))
 elif pagamento == 'dinheiro' or 'cheque':

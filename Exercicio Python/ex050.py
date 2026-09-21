@@ -12,6 +12,7 @@ soma = 0
 cont = 0
 for c in range(1, 7):
     num = int(input('Digite o {} numero: '.format(c)))
-    soma += num
-    cont += 1
-print('Voce informou {} números e a soma foi {}'.format(cont, soma))
+    if num % 2 == 0:
+        soma += num
+        cont += 1
+print('Voce informou {} números PARES e a soma foi {}'.format(cont, soma))
