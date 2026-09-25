@@ -29,7 +29,7 @@ if escolha == 5:
 n1 = int(input('Digite um valor: '))
 n2 = int(input('Digite outro valor: '))
 opção = 0
-while opção != 5:
+while opção != 5: # Com esse while, ele vai ficar mostrando o menu até a gente digitar o 5. E podemos fazer varias operações com os numeros escolhidos.
     print('''    [ 1 ] somar
     [ 2 ] multiplicar
     [ 3 ] maior

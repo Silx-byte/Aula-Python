@@ -22,6 +22,8 @@ print(resultado)'''
 
 # Resolução do Professor Guanabara
 
+#Podemos usar a biblioteca do Python Math para importar Factorial. Pois ele mesmo ja calcula automaticamente.
+
 n = int(input('Digite um numero para calcular seu Fatorial: '))
 c = n
 f = 1 # O fator NULO de multiplicação é 1 pois qualquer multiplicação por 0 da 0
